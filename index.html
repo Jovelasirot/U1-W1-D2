@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sviluppo di una pagina web - Blog Epicode</title>
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="assets/img/logo.svg" alt="logo epicode" />
+      <div class="navigation">
+        <a href="#">Home</a>
+        <a href="#">Articoli</a>
+        <a href="#">Lavora con noi</a>
+      </div>
+    </header>
+    <main>
+      <div class="tittle">
+        Come creare un template per i post di Mario Rossi
+      </div>
+      <article class="postContent">
+        <div class="parte1">
+          La prima cosa da fare è suddividere in blocchi logici la pagina,
+          identificando le parti comuni da applicare a tutte le pagine.<br />
+          Le varie aree saranno quindi suddivise in:
+          <ul>
+            <li>Contenuti di intestazione del tag &lt;header&gt;</li>
+            <li>
+              Contenuti centrali variabili del tag &lt;main&gt; &#40;corpo
+              pricnipale&#41;
+            </li>
+            <li>
+              Contenuti di fine pagina comuni, da inserire nel tag
+              &lt;footer&gt;
+            </li>
+          </ul>
+        </div>
+        <div class="parte2">
+          Formattazione del codice<br />
+          Il testo dell'articolo dovrà essere formattato per identificare tutte
+          le parti da selezionare con i CSS. Perciò i passi saranno:
+          <ol>
+            <li>
+              Progettare il markup assegnado ad ogni specifico testo il tag
+              appropriato
+            </li>
+            <li>
+              Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso
+              il basso
+            </li>
+            <li>Applicare gli stili CSS</li>
+          </ol>
+          L'applicazione degli stili CSS è cresciuta negli anni fino a
+          raggiungere la diffusione pressoché totale.
+        </div>
+        <table>
+          <tr>
+            <th>Anno</th>
+            <th>&#37; di utilizzo</th>
+            <th>Supporto browsers</th>
+          </tr>
+
+          <tr>
+            <td>2000</td>
+            <td>20&#37;</td>
+            <td>17&#37;</td>
+          </tr>
+
+          <tr>
+            <td>2002</td>
+            <td>35&#37;</td>
+            <td>33&#37;</td>
+          </tr>
+          <tr>
+            <td>2004</td>
+            <td>45&#37;</td>
+            <td>42&#37;</td>
+          </tr>
+          <tr>
+            <td>2008</td>
+            <td>80&#37;</td>
+            <td>51&#37;</td>
+          </tr>
+          <tr>
+            <td>2012</td>
+            <td>100&#37;</td>
+            <td>76&#37;</td>
+          </tr>
+        </table>
+        <div class="parte3">
+          Un test di validazione potrà essere fatto tramite il tool online
+          <a href="#">LINK ESTERNO</a> dedicato allo scopo. Uuna volta
+          ottimizzato il tutto, avremo graggiunto il nostro obiettivo ed essere
+          stati dei veri developers come loro:<br />
+          <iframe
+            class="video"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/aBSZVeBRvDY?si=JhcQ_fzbGsSXnMn1"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </article>
+    </main>
+    <aside>
+      <div class="tittle2">Articoli correlati</div>
+      <ul>
+        <li><a href="#">Validare il codice</a></li>
+        <li><a href="#">Correggere la sintassi</a></li>
+        <li><a href="#">Meno Kb nella pagina</a></li>
+      </ul>
+    </aside>
+    <footer>
+      <div class="form">
+        Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra
+        newsletter.
+        <div class="email">
+          <label for="email">Inserisci l'email</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="johnsmith@gmail.com"
+            required
+          /><br />
+          <button class="sub">Iscriviti</button>
+        </div>
+        <div class="copright">
+          Blog Epicode &#169;2023 <br />
+          Testata online di Mario Rossi, registrata con prot. 2.213&#47;2018
+          &#150; via Luigi Einaudi 2 &#150; Milano P.IVA 00112233.<br />
+          <a href="#" class="email">info@epicode.school</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
